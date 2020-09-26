@@ -120,6 +120,7 @@ mkfs/mkfs: mkfs/mkfs.c $K/fs.h
 .PRECIOUS: %.o
 
 UPROGS=\
+	$U/_primes\
     $U/_pingpong\
 	$U/_sleep\
 	$U/_cat\
