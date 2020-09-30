@@ -5,8 +5,9 @@
 //         #include <unistd.h>
 //        #include <sys/types.h>
 //#include <stdlib.h>
-#define stderr 0
+#define stderr 2
 #define stdout 1
+#define stdin 0
 
 void job(int read_fd);
 
